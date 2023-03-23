@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JGR.music</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">JGR.music</h1>
+                <img src="Logo Animado.gif" width="150px" alt=""> 
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-music-note-beamed"></i>Todos Los Instrumentos</button></li>
+                    <li><button id="guitarras" class="boton-menu boton-categoria"><i class="bi bi-music-note"></i>Guitarras</button></li>
+                    <li><button id="bajos" class="boton-menu boton-categoria"><i class="bi bi-music-note"></i>Bajos</button></li>
+                    <li><button id="teclados" class="boton-menu boton-categoria"><i class="bi bi-music-note"></i>Teclados</button></li>
+                    <li><a  class="boton-menu boton-carrito " href="carrito.html"><i class="bi bi-cart-dash-fill"></i>Carrito<span id="numerito" class="numerito">0</span></li></a>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© JGR.music 2023</p>
+            </footer>
+
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los Instrumentos</h2>
+            <div class="contenedor-productos" id="contenedor-productos" class="contenedor-productos">
+
+            </div>
+        </main>
+    </div>
+    <Script src="Java.js"></Script>
+</body>
+</html>

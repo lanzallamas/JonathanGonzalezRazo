@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">JGR.music</h1>
+                <img src="Logo Animado.gif" width="150px" alt=""> 
+            </header>
+            <nav>
+                <ul>
+                
+                    <li><a class="boton-menu boton-volver" href="Index01.html"><i class="bi bi-arrow-bar-left"></i>Seguir Comprando</li></a>
+                    <li><a class="boton-menu boton-carrito active" href="carrito.html"><i class="bi bi-cart-dash-fill"></i>Carrito<span class="numerito">0</span></li></a>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© JGR.music 2023</p>
+            </footer>
+
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu Carrito esta Vacio. <i class="bi bi-cart-dash"></i></p>
+                <div id="carrito-productos" class="carrito-productos disabled">
+
+                </div>
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar Carrito</button>
+
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="total">$2,500.00</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar Ahora</button>
+                        
+                    </div>
+                </div>
+                <p id="carrito-comprado" class="carrito-comprado disabled">Gracias Por Tu Compra. <i class="bi bi-emoji-smile-upside-down"></i></p>
+            </div>
+        </main>
+    </div>
+    <script src="Javacar.js"></script>
+</body>
+</html>
